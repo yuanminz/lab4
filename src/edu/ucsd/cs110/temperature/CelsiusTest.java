@@ -1,14 +1,13 @@
 package edu.ucsd.cs110.temperature;
 
+import org.junit.Test;
+
 import static org.junit.Assert.*;
 
 /**
  * Created by cs110xce on 4/25/16.
  */
-public class CelsiusTest {
-    package edu.ucsd.cs110.temperature;
-    import static org.junit.Assert.*;
-    import org.junit.Test;
+
     public class CelsiusTest {
         private float delta = 0.001f;
         @Test
@@ -46,4 +45,3 @@ public class CelsiusTest {
                 assertEquals(212, convert.getValue(), delta);    } }
 
 
-    }
